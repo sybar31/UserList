@@ -1,0 +1,61 @@
+/* Custom Bulma overrides for blue and white theme */
+
+/* Override primary color */
+:root {
+  --primary: #007bff; /* Bootstrap blue */
+  --primary-invert: #ffffff;
+}
+
+/* Buttons */
+.button.is-success {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary-invert);
+}
+
+.button.is-success:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: var(--primary-invert);
+}
+
+.button.is-info {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary-invert);
+}
+
+.button.is-info:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: var(--primary-invert);
+}
+
+/* Table */
+.table {
+  border: 1px solid var(--primary);
+}
+
+.table thead {
+  background-color: var(--primary);
+  color: var(--primary-invert);
+}
+
+.table tbody tr:hover {
+  background-color: #e6f0ff;
+}
+
+/* Background and text colors */
+body {
+  background-color: #e6f0ff;
+  color: #007bff;
+}
+
+/* Link colors */
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: #0056b3;
+}
